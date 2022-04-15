@@ -1,5 +1,9 @@
 @media(max-width:768px){
     .map__large{
         display: none;
+
+    }
+    body{
+        min-height: 100vh;
     }
 }
