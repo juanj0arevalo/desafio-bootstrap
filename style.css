@@ -1,12 +1,40 @@
-@media(max-width:768px){
-    .map__large{
-        display: none;
+@media (max-width: 768px) {
+  .map__large {
+    display: none;
+  }
+  body {
+    min-height: 100vh;
+  }
+  .horario {
+    display: none;
+  }
+  .postre_1 {
+    margin-top: 1rem;
+  }
+  .postre_2 {
+    margin-top: 1rem;
+  }
+  .postre_3 {
+    margin-top: 1rem;
+  }
+}
+@media(max-width:400px){
+    .nosotros{
+        width: 300px;
+        margin-bottom: 1rem;
 
     }
-    body{
-        min-height: 100vh;
+    .sucursales{
+        width: 300px;
+        margin-bottom: 1rem;
+
     }
-    .horario{
-        display: none;
+    .pedidos{
+        width: 300px;
+        margin-bottom: 1rem;
+
     }
+
+
 }
+
