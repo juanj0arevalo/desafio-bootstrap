@@ -35,7 +35,18 @@
 
     }
     
-
+.text__historia{
+  font-size: 1.5rem;
+}
+.title__historia{
+  font-size: 2.5rem;
+}
+.title__index{
+  font-size: 2.5rem;
+}
+.title__empanadas{
+  font-size: 2.5rem;
+}
 
 }
 
