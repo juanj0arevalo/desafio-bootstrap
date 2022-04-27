@@ -1,3 +1,5 @@
+$horario__size: 0.6rem;
+
 @media (max-width: 768px) {
   .map__large {
     display: none;
@@ -6,7 +8,7 @@
     min-height: 100vh;
   }
   .horario {
-    display: none;
+    font-size: $horario__size;
   }
   .postre_1 {
     margin-top: 1rem;
