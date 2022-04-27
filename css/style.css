@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+  .map__large {
+    display: none;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  .horario {
+    display: none;
+  }
+
+  .postre_1 {
+    margin-top: 1rem;
+  }
+
+  .postre_2 {
+    margin-top: 1rem;
+  }
+
+  .postre_3 {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 414px) {
+  .nosotros {
+    width: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .sucursales {
+    width: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .pedidos {
+    width: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .text__historia {
+    font-size: 1.5rem;
+  }
+
+  .title__historia {
+    font-size: 2.5rem;
+  }
+
+  .title__index {
+    font-size: 2.5rem;
+  }
+
+  .title__empanadas {
+    font-size: 2.5rem;
+  }
+
+  .text__icon {
+    text-decoration: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
