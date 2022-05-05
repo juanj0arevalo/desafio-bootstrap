@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+
   .map__large {
     display: none;
   }
@@ -13,17 +17,27 @@
 
   .postre_1 {
     margin-top: 1rem;
+    width: 200px;
+    height: 300px;
   }
 
   .postre_2 {
     margin-top: 1rem;
+    width: 200px;
+    height: 300px;
   }
 
   .postre_3 {
     margin-top: 1rem;
+    width: 200px;
+    height: 300px;
   }
 }
 @media (max-width: 414px) {
+  body {
+    background-color: blue;
+  }
+
   .nosotros {
     width: 300px;
     margin-bottom: 1rem;

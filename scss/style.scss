@@ -1,6 +1,10 @@
+@import "./mixins";
 $horario__size: 0.6rem;
 
 @media (max-width: 768px) {
+  body {
+    background-color: map-get($style_mobile, bg);
+  }
   .map__large {
     display: none;
   }
@@ -12,15 +16,24 @@ $horario__size: 0.6rem;
   }
   .postre_1 {
     margin-top: 1rem;
+    width: map-get($size_photo, widht);
+    height: map-get($size_photo, height);
   }
   .postre_2 {
     margin-top: 1rem;
+    width: map-get($size_photo, widht);
+    height: map-get($size_photo, height);
   }
   .postre_3 {
     margin-top: 1rem;
+    width: map-get($size_photo, widht);
+    height: map-get($size_photo, height);
   }
 }
 @media (max-width: 414px) {
+  body {
+    background-color: map-get($style_mobile, bg);
+  }
   .nosotros {
     width: 300px;
     margin-bottom: 1rem;
