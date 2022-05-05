@@ -14,16 +14,19 @@ $horario__size: 0.6rem;
 
   .postre_1 {
     margin-top: 1rem;
+    /*map*/
     width: map-get($size_photo, widht);
     height: map-get($size_photo, height);
   }
   .postre_2 {
     margin-top: 1rem;
+    /*map*/
     width: map-get($size_photo, widht);
     height: map-get($size_photo, height);
   }
   .postre_3 {
     margin-top: 1rem;
+    /*map*/
     width: map-get($size_photo, widht);
     height: map-get($size_photo, height);
   }
@@ -34,23 +37,28 @@ $horario__size: 0.6rem;
     margin-bottom: 1rem;
   }
   .sucursales {
+    /*extend*/
     @extend.nosotros;
   }
   .pedidos {
+    /*extend*/
     @extend.nosotros;
   }
-
+  /*mixin*/
+  @mixin fontsize($font-size) {
+    font-size: 2.5rem;
+  }
   .text__historia {
-    font-size: 1.5rem;
+    @include fontsize(2.6rem);
   }
   .title__historia {
-    font-size: 2.5rem;
+    @include fontsize(3rem);
   }
   .title__index {
-    font-size: 2.5rem;
+    @include fontsize(3rem);
   }
   .title__empanadas {
-    font-size: 2.5rem;
+    @include fontsize(3.2rem);
   }
 
   .text__icon {
