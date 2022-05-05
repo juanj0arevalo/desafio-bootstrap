@@ -1,8 +1,4 @@
 @media (max-width: 768px) {
-  body {
-    background-color: blue;
-  }
-
   .map__large {
     display: none;
   }
@@ -34,21 +30,7 @@
   }
 }
 @media (max-width: 414px) {
-  body {
-    background-color: blue;
-  }
-
-  .nosotros {
-    width: 300px;
-    margin-bottom: 1rem;
-  }
-
-  .sucursales {
-    width: 300px;
-    margin-bottom: 1rem;
-  }
-
-  .pedidos {
+  .nosotros, .pedidos, .sucursales {
     width: 300px;
     margin-bottom: 1rem;
   }

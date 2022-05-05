@@ -1,10 +1,7 @@
-@import "./mixins";
+@import "./variables";
 $horario__size: 0.6rem;
 
 @media (max-width: 768px) {
-  body {
-    background-color: map-get($style_mobile, bg);
-  }
   .map__large {
     display: none;
   }
@@ -14,6 +11,7 @@ $horario__size: 0.6rem;
   .horario {
     font-size: $horario__size;
   }
+
   .postre_1 {
     margin-top: 1rem;
     width: map-get($size_photo, widht);
@@ -31,20 +29,15 @@ $horario__size: 0.6rem;
   }
 }
 @media (max-width: 414px) {
-  body {
-    background-color: map-get($style_mobile, bg);
-  }
   .nosotros {
     width: 300px;
     margin-bottom: 1rem;
   }
   .sucursales {
-    width: 300px;
-    margin-bottom: 1rem;
+    @extend.nosotros;
   }
   .pedidos {
-    width: 300px;
-    margin-bottom: 1rem;
+    @extend.nosotros;
   }
 
   .text__historia {
