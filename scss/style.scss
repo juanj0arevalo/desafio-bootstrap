@@ -46,7 +46,7 @@ $horario__size: 0.6rem;
   }
   /*mixin*/
   @mixin fontsize($font-size) {
-    font-size: 2.5rem;
+    font-size: $font-size;
   }
   .text__historia {
     @include fontsize(2.6rem);

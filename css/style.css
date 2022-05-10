@@ -46,20 +46,21 @@
     /*extend*/
   }
 
+  /*mixin*/
   .text__historia {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
   }
 
   .title__historia {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .title__index {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .title__empanadas {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
 
   .text__icon {
